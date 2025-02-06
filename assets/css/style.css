@@ -1,0 +1,117 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+    width: auto;
+    height: auto;
+    background-image: url(../img/sfondo.png);
+}
+body {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+/* HEADER */
+#box1 {
+    width: 500px;
+    height:400px ;
+    background-color:rgb(16, 115, 168) ;
+    border: 0.5px solid black;
+    margin:  20px;
+    box-shadow: 4px 4px 4px black;
+    text-align: center;
+    
+}
+
+
+/* MAIN */
+#box2 {
+    width: 500px;
+    height: 3800px;
+    background-color:white ;
+    border: 0.5px solid black;
+    margin:  20px;
+    box-shadow: 4px 4px 4px black;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.7em;
+    
+      
+}
+main h1 {
+    font-size: xxx-large;
+}
+
+.p1 {
+    color: gray;
+    
+}
+span {
+    background-color:#80808054;
+    border-radius: 10%;
+    border-color: gray;
+    border-style: groove;
+
+}
+.strong1 {
+    color:blueviolet;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+.table-firs {
+    background-color: rgb(24, 112, 218);
+    
+}
+
+.table{
+    color:white;
+    text-align: center;
+    font-size: 1.1em;
+
+    
+}
+.table-color{
+    background-color:#8080802b;
+}
+
+/* FORM */
+.box3 {
+    width: auto;
+    height: 200px;
+    background-color:#80808030;
+    border: 0.5px solid black;
+    margin:  20px;
+}
+.a-box3 {
+    color: #03A9F4;
+    font-weight: bold;
+    
+}
+.categoria {
+    margin:0;
+}
+
+.data{
+    text-align: right;
+}
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+#box3 {
+    width: 500px;
+    height: 130px;
+    background-color:rgb(16, 115, 168) ;
+    border: 0.5px solid black;
+    margin:  20px;
+    box-shadow: 4px 4px 4px black;  
+}
